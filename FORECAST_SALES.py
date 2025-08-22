@@ -12,7 +12,7 @@ from dash import dcc, html, Input, Output, dash_table
 # =========================
 DATA_PATH = os.getenv(
     "DATA_PATH",
-    r"C:\Users\gzecena\OneDrive - CENTROAMERICA COMERCIAL\Documentos\Seasonality email\SEASONALITY_DATA_EMAIL\STORE_SUMMARY_long_form.xlsx"
+    "STORE_SUMMARY_long_form.xlsx"  # Archivo en el mismo directorio
 )
 _cache = {"mtime": None, "df": None}
 
